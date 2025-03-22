@@ -7,6 +7,7 @@
           v-model="email"
           variant="filled"
           @blur="validateEmail"
+          size="large"
         />
         <label for="in_label">Email ID*</label>
       </FloatLabel>

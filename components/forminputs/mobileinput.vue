@@ -7,6 +7,7 @@
           v-model="localPhoneNo"
           variant="filled"
           @keypress="allowOnlyNumbers"
+          size="large"
         />
         <label for="in_label">Phone no*</label>
       </FloatLabel>
